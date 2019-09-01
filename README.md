@@ -105,7 +105,15 @@ For detailed explanation on how things work, checkout [Nuxt.js docs](https://nux
 
 #### 用户组件
 
-### nav
+##### nav
+
+#### searchBar
+
+搜索框，有3个状态：
+
+1. 搜索框失去焦点时：只是显示默认文本
+2. 搜索框聚焦时，并且没有输入文本时：下拉框显示热门搜索列表
+3. 搜索框聚焦时，并且输入文本时：下拉框显示相关搜索列表
 
 
 
