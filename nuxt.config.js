@@ -38,6 +38,7 @@ module.exports = {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    // 取消eslint语法检测
     '@nuxtjs/eslint-module'
   ],
   /*
