@@ -2,15 +2,15 @@
   <div class="page-index">
     <el-row>
       <el-col :span="5">
-        <Emenu />
+        <emenu />
       </el-col>
       <el-col :span="19">
-        2
+        <life />
       </el-col>
     </el-row>
     <el-row>
       <el-col :span="24">
-        3
+        <Artistic />
       </el-col>
     </el-row>
   </div>
@@ -18,9 +18,13 @@
 
 <script>
 import Emenu from '@/components/index/menu'
+import Life from '@/components/index/life'
+import Artistic from '@/components/index/artistic'
 export default {
   components: {
-    Emenu
+    Emenu,
+    Life,
+    Artistic
   }
 }
 </script>
